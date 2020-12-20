@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-
 import ErrorBoundary from './components/ErrorBoundary';
 import OrderHistory from './components/OrderHistory';
 

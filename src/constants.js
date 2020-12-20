@@ -30,7 +30,7 @@ export default {
         OrderNumberColor: '#a2a2a2'
     },
     ERROR_MESSAGES: {
-        Fallback: 'Oops! Something Went Wrong :(  Please try refreshing.'
+        Fallback: 'Oops! Something went wrong :(  Please try refreshing.'
     },
     INFO_MESSAGES: {
         EmptyCollection: 'No records found'

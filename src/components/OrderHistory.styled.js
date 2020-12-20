@@ -4,7 +4,7 @@ import Constants from './../constants';
 export const TableOuterWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 13px;
     font-family: Helvetica, Arial, sans-serif, 
     color: ${Constants.THEME_SETTING.TextDefaultColor}
 `

@@ -19,6 +19,7 @@ const OrderHistory = () => {
                     setOrderHistory(data);
                 })
                 .catch(() => {
+                    setIsLoading(false);
                     setHasError(true);
                 });
         }
@@ -91,7 +92,10 @@ const OrderHistory = () => {
 
     return (
         <>
-            {hasError
+            {isLoading && 
+                <div style={{ textAlign: 'center', padding: '20px' }}>Loading...</div>
+            }
+            {!isLoading && hasError
                 ? <FallbackUI content={Constants.ERROR_MESSAGES.Fallback} />
                 : ordersTable
             }
